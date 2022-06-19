@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Beleren';
+    src: local('Beleren'), url(../../fonts/Beleren/Beleren2016-Bold.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  .titulo{
+    position: absolute;
+    font-family: 'Beleren';
+    font-size: 20px;
+    font-weight: bold;
+    top: 16px;
+    left: 40px;
+  }
+
+  .imgCarta{
+    position: absolute;
+    top: 68px;
+    left: 35px;
+    width: 330px;
+    height: 242px;
+  }
+
+  .tipo{
+    position: absolute;
+    font-family: 'Beleren';
+    font-size: 20px;
+    font-weight: bold;
+    top: 300px;
+    left: 40px;
+  }
+
+  .textoIlustrativo{
+    position: absolute;
+    font-family: 'Beleren';
+    font-size: 20px;
+    font-weight: bold;
+    top: 340px;
+    left: 40px;
+  }
+
+  .danoResistencia{
+    position: absolute;
+    font-family: 'Beleren';
+    font-size: 16px;
+    font-weight: bold;
+    top: 465px;
+    left: 310px;
+  }
+
+
+  .containerCarta{
+    position: relative;
+    width: 100%;
+  }
+
+  .carta{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }

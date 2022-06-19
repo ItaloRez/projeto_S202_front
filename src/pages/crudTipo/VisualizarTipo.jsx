@@ -41,7 +41,6 @@ export default function VisualizarTipo() {
             return (
               <div key={tipo._id}>
                 <h2>- {tipo.nome}</h2>
-                <button onClick={() => editarType(tipo)}>Editar</button>
                 <button onClick={() => excluirType(tipo)}>Excluir</button>
               </div>
             );
